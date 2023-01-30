@@ -1,0 +1,310 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: '';
+    background: #293241;
+    position: absolute;
+    width: 100%;
+    height: 465px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+body {
+    background: #BFD7E4;
+}
+
+.page {
+    width: 752px;
+    margin: auto;
+
+}
+
+form {
+    background: #FFFFFF;
+
+    border-radius: 0px 0px 20px 20px;
+
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+    min-height: 300px;
+    padding: 30px 64px 64px;
+
+}
+
+
+fieldset {
+    border: none;
+
+}
+
+.fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label,
+.checkbox-wrapper label {
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+    margin-bottom: 8px;
+    margin-top: 8px;
+
+}
+
+.input-wrapper label span {
+    margin-left: 12px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #86838d;
+}
+
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select {
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    height: 56px;
+    padding: 0 24px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6c6a71;
+
+
+
+}
+
+
+.coluna3 {
+    display: flex;
+    gap: 20px;
+}
+
+.coluna3 div {
+    width: 100%;
+
+}
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 107px;
+    background: #293241;
+
+
+}
+
+header h1 {
+
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+
+}
+
+header p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+header img {
+    margin-bottom: 32px;
+}
+
+
+#destaque-info {
+    background: #293241;
+
+}
+
+#destaque {
+    background: #F67669;
+    border-radius: 20px 20px 0px 0px;
+    height: 133px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+
+.checkbox-wrapper label {
+
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+
+    color: #4E4958;
+
+}
+
+.checkbox-wrapper input {
+    width: 24px;
+    height: 24px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px
+}
+
+
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.input-wrapper checkbox {
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    margin: 8px 64px 8px 64px;
+
+}
+
+.input-wrapper input {
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    height: 55.53px;
+
+
+}
+
+
+.input-wrapper select {
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    height: 55.53px;
+
+    width: 300px;
+
+}
+
+
+.input-wrapper textarea {
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    height: 170px;
+
+    resize: none;
+
+}
+
+.input-wrapper label {
+
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+
+}
+
+.input-wrapper span {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #C1BCCC;
+
+}
+
+
+legend {
+    display: flex;
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #253B51;
+    justify-content: center;
+    margin-bottom: 8px;
+
+
+
+
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #E6E6F0;
+
+}
+
+footer {
+    display: flex;
+    margin: auto;
+
+
+}
+
+footer input {
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 10px;
+
+
+    width: 622px;
+    height: 51px;
+
+    border: none;
+    background: #F67669;
+    border-radius: 8px;
+
+    font-family: 'Staatliches';
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+
+    color: #FFFFFF;
+}
